@@ -1,73 +1,58 @@
-![alt-tag](https://c2.staticflickr.com/8/7167/26672340054_eaae3d4e7f_o.png)
-![alt-tag](https://c2.staticflickr.com/8/7013/26671807574_4487215cda_o.png)
+# Strata Reloaded
 
-#### To create a new post :sunglasses:
+Simple, clean personal blogging template for Jekyll based on Strata by HTML5 UP.
 
-- Create a .markdown file inside _posts folder.
-- Name the file according to the standard jekyll format.
-```
-   2016-03-30-i-love-design.markdown
-```
-- Write the Front Matter and content in the file.
-    ```
-          ---
-          layout: post
-          title:  String Post Title
-          date:   Time Stamp
-          categories: String | Array of Strings Category / Categories
-          ---
-    ```
+![Strata Reloaded template screenshot](images/_screenshot.png)
 
-    ```
-        ---
-        layout: post
-        title:  "The One with the Blackout"
-        date:   2016-03-30 19:45:31 +0530
-        categories: ["life", "friends"]
-        ---
-    ```  
+## Features
 
+* Parallax background effect
+* Lightbox gallery
+* Pre-styled components
+* Blog with pagination
+* Configurable footer
+* Optimized for editing in [CloudCannon](http://cloudcannon.com/)
+* RSS/Atom feed
+* SEO tags
+* Google Analytics
+* Webmaster Verification
 
-![alt-tag](https://c2.staticflickr.com/8/7073/27208796421_05b7f79b4b_o.png)
+## Develop
 
+1. Add your site and author details in `_config.yml`.
+2. Add your Google Analytics key to `_config.yml`.
+3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
-####Create new pages, such a breeze! :smile:
-- Create a .md file in the root directory.
-- Name the file with the desired page link name.
-```
-   about.md
-```
-```
-   design.md
-```
-- Write the Front Matter and content in the file.
-```
-          ---
-          layout: page
-          title: String Title of the webpage
-          permalink: / String / Permalink for the webpage
-          tagline: String Optional Feature : Tagline for the page
-          ---
-```      
-```
-        ---
-        layout: page
-        title:  "Science"
-        permalink:   /science/
-        tagline : "Humanity is overrated."
-        ---
-```      
+## Develop
 
-![alt-tag](https://c2.staticflickr.com/8/7613/27278759785_da430e2f99_o.png)
+Urban was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-####It'd be really cool if you,<br>
-1.  Create some new feature and would like to integrate in Safarnama. Pull requests are most invited.
-2.  Open issues if you find bugs.
-3.  Just so you know, the license type is MIT.
+Install the dependencies with [Bundler](http://bundler.io/):
 
+~~~bash
+$ bundle install
+~~~
 
->Its' all about being community driven.  :bus: :bus: :dash:
+Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
-If there's any issue you are facing in setting up Safarnama, I'm there for you. Just create an issue in this repository (http://github.com/hemangsk/safarnama), (https://help.github.com/articles/creating-an-issue/) and I'll get back to you asap. :smile: :+1:<br>
+~~~bash
+$ bundle exec jekyll serve
+~~~
 
-Have a great day!  :smile: :smile: :smiley:
+## Editing
+
+Strata Reloaded is already optimized for adding, updating and removing posts and footer elements in [CloudCannon](https://app.cloudcannon.com/).
+
+### Posts
+
+* Add, update or remove a post in the *Posts* collection.
+* Change the defaults when new posts are created in `_posts/_defaults.md`.
+
+### Footer
+
+* Exposed as a data file to give clients better access.
+* Set in the *Data* / *Footer* section.
+
+## License
+
+Free for personal and commercial use under the CCA 3.0 license. See LICENSE file for additional information and terms of use. This theme was adapted from Strata by HTML5 UP for use with [CloudCannon](http://cloudcannon.com) by [Comfusion LLC](http://comfusionllc.com).
