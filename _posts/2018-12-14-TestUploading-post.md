@@ -1,13 +1,10 @@
 ---
 layout: post
 title: "TestUploading"
-excerpt: "Custom written post descriptions are the way to go... if you're not lazy."
-categories: [paragraph, feature photo]
+excerpt: "업로드 테스팅중."
+categories: [paragraph]
 comments: true
 image:
-  feature: https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250
-  credit: Greg Rakozy
-  creditlink: https://unsplash.com/photos/oMpAz-DN-9I
 ---
 
 국무총리는 국무위원의 해임을 대통령에게 건의할 수 있다. 모든 국민은 근로의 권리를 가진다. 국가는 사회적·경제적 방법으로 근로자의 고용의 증진과 적정임금의 보장에 노력하여야 하며, 법률이 정하는 바에 의하여 최저임금제를 시행하여야 한다. 국가는 평생교육을 진흥하여야 한다. 모든 국민은 사생활의 비밀과 자유를 침해받지 아니한다.
